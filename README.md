@@ -13,7 +13,7 @@ bower install bundled-es-modules/chai
 
 ```html
 <script type="module">
-  import { chai } from '@bundles-es-modules/chai';
+  import { chai, expect, should, assert } from '@bundles-es-modules/chai';
   // or directly
   import chai from '@bundles-es-modules/chai/chai.js';
 </script>
@@ -22,7 +22,7 @@ bower install bundled-es-modules/chai
 ## Bower use
 ```html
 <script type="module">
-  import { chai } from 'chai';
+  import { chai, expect, should, assert } from 'chai';
   // or directly
   import chai from 'chai/chai.js';
 </script>

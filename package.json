@@ -1,6 +1,6 @@
 {
   "name": "@bundled-es-modules/chai",
-  "version": "4.2.0-rc.1",
+  "version": "4.2.0",
   "description": "mirror of chai, bundled and exposed as ES module",
   "author": "Thomas Allmer <d4kmor@gmail.com>",
   "main": "index.js",
