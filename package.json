@@ -1,16 +1,17 @@
 {
   "name": "@bundled-es-modules/chai",
-  "version": "4.2.2",
+  "version": "4.3.7",
   "description": "mirror of chai, bundled and exposed as ES module (incl. typescript types)",
   "author": "Thomas Allmer <d4kmor@gmail.com>",
+  "type": "module",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "chai": "4.2.0",
-    "rollup": "^0.64.1",
-    "rollup-plugin-commonjs": "^9.1.5"
+    "chai": "4.3.7",
+    "rollup": "^3.10.1",
+    "rollup-plugin-commonjs": "^10.1.0"
   },
   "scripts": {
     "build": "rollup -c ./rollup.config.js"
